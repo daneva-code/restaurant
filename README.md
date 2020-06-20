@@ -25,11 +25,11 @@ src/main/java/com/restaurant--
 8. Validators-contains code for validations.
 
 Solution:
-(requrement1). This is restaurant service written as a spring boot project.
-(requirement2). An api is provided by restaurant service (find in 'AdminController') to delivery service for registering delivery service's current host and port. Whenever delivery service is started it can hit this api to tell its current host and port.
-(requirement3). Find api in 'RestaurantController' with Post mapping 'restaurant/order/place'.
-(requirement4). Find api in 'RestaurantController' with Get mapping 'restaurant/order/status'.
-(requirement5). Find api in 'RestaurantController' with Post mapping 'restaurant/order/status'.
+1. (requrement1). This is restaurant service written as a spring boot project.
+2. (requirement2). An api is provided by restaurant service (find in 'AdminController') to delivery service for registering delivery service's current host and port. Whenever delivery service is started it can hit this api to tell its current host and port.
+3. (requirement3). Find api in 'RestaurantController' with Post mapping 'restaurant/order/place'.
+4. (requirement4). Find api in 'RestaurantController' with Get mapping 'restaurant/order/status'.
+5. (requirement5). Find api in 'RestaurantController' with Post mapping 'restaurant/order/status'.
 
 Notes:
 This project is a spring boot project which is designed for production readiness in future but currently maintaining all states in memory while it has already been integrated with mysql database.
